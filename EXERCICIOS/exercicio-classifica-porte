@@ -1,0 +1,27 @@
+// Função classificadora
+function classificarPorte(nome, peso) {
+    let porte;
+    
+    // Vamos criar uma variável para facilitar o switch
+    let categoria = (peso <= 10) ? "pequeno" : "medio";
+
+    switch (categoria) {
+        case "pequeno":
+            porte = "Pequeno";
+            break;
+        case "medio":
+            porte = "Médio";
+            break;
+        default:
+            porte = "Desconhecido";
+    }
+
+    console.log("Nome:", nome);
+    console.log("Peso:", peso + "kg");
+    console.log("Porte:", porte);
+}
+
+// Exemplo de uso
+classificarPorte("jose", 15);
+console.log ('-----------')
+classificarPorte("rex", 10);
