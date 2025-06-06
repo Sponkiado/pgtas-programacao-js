@@ -1,2 +1,2 @@
-import { exibirNomePet } from "./modularizacao-export.js"; 
-exibirNomePet(`Pipoca`)
+import { exibirNomePet } from "./modularizacao-export.js";
+exibirNomePet(`Pipoca`);

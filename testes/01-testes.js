@@ -16,13 +16,12 @@ TDD
     ASSERTION/ASSERCAO
      verificar se um comportamento está de acordo com o esperado
 */
-import { exibirNomeDogFormatado } from '../conceitos/testes-de-unidade.js'
-import assert from 'node:assert'
-describe('Testes do Projeto', () => {
-    it('deve exibir o nome do dog com letras maiúsculas', () => {
-        assert.strictEqual(exibirNomeDogFormatado('Mimosa'), 'MIMOSA')
-        // verifique se: valor atual é igual ao valor esperado
-    })
-    it('segundo teste', () => {
-    })
-})
+import { exibirNomeDogFormatado } from "../conceitos/testes-de-unidade.js";
+import assert from "node:assert";
+describe("Testes do Projeto", () => {
+  it("deve exibir o nome do dog com letras maiúsculas", () => {
+    assert.strictEqual(exibirNomeDogFormatado("Mimosa"), "MIMOSA");
+    // verifique se: valor atual é igual ao valor esperado
+  });
+  it("segundo teste", () => {});
+});

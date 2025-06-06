@@ -1,8 +1,8 @@
 // dados.js
-const caes = ['Pantera', 'Luna', 'Thor'];
+const caes = ["Pantera", "Luna", "Thor"];
 
 function entregarPetiscos(lista) {
-  lista.forEach(cao => {
+  lista.forEach((cao) => {
     console.log(`Entregando petisco para ${cao}`);
   });
 }

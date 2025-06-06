@@ -1,7 +1,7 @@
-const brinquedos = ['Bola', 'Osso', 'Corda', 'Sino'];
+const brinquedos = ["Bola", "Osso", "Corda", "Sino"];
 
 function entregarBrinquedos(lista) {
-  lista.forEach(brinquedo => {
+  lista.forEach((brinquedo) => {
     console.log(`Entregando o brinquedo: ${brinquedo}`);
   });
 }

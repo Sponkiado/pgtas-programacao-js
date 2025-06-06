@@ -4,11 +4,10 @@ enquanto (peti não estiver cansado); faça {
 }
 */
 
-
-let voltasAteFicarCansado = 5
-let quantidadeVoltasAtual = 0
+let voltasAteFicarCansado = 5;
+let quantidadeVoltasAtual = 0;
 
 while (quantidadeVoltasAtual < voltasAteFicarCansado) {
-    console.log ('Dar uma volta na quadra')
-    quantidadeVoltasAtual++
+  console.log("Dar uma volta na quadra");
+  quantidadeVoltasAtual++;
 }

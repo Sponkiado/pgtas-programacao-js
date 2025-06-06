@@ -7,7 +7,7 @@ let porteDog = "medio"; // pode ser "pequeno", "médio" ou "grande"
 const idadeMinima = 2;
 
 // Verificando se pode ser adotado
-let podeSerAdotado = (idadeDog >= idadeMinima) || (porteDog === "pequeno");
+let podeSerAdotado = idadeDog >= idadeMinima || porteDog === "pequeno";
 
 // Exibindo as informações
 console.log(`Nome do dog: ${nomeDog}`);
